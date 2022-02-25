@@ -121,6 +121,8 @@ pyinstaller -w -F --add-data "asteroid.ico;." -i "space.ico" tetris.py
 pyinstaller tetris.spec
 ```
 
+Сборки exe-файла в корне репозитория создается папка dist, в которой будет
+лежать готовое приложение.
 
 ## Цель проекта
 
